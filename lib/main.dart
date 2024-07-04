@@ -3,7 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 import 'package:timberr/constants.dart';
-import 'package:timberr/private_keys.dart';
+// import 'package:timberr/private_keys.dart';
 import 'package:timberr/wrapper.dart';
 
 void main() async {

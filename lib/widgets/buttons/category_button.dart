@@ -32,7 +32,8 @@ class CategoryButton extends StatelessWidget {
               child: SvgPicture.asset(
                 iconPath,
                 fit: BoxFit.none,
-                color: (isSelected) ? Colors.white : kTinGrey,
+                colorFilter:
+                    const ColorFilter.mode(Colors.white, BlendMode.srcIn),
               ),
             ),
             Text(

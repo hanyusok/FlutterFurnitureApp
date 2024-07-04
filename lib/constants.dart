@@ -19,7 +19,9 @@ const kSeaGreen = Color(0xFF2AA952);
 const kCrayolaGreen = Color(0xFF27AE60);
 const kFireOpal = Color(0xFFEB5757);
 
-const String supabaseUrl = "https://wzicmnwevvqgzttnmvou.supabase.co";
+const String supabaseUrl = "https://jxrlbjtkklnnulttcnas.supabase.co";
+const String supabaseAnonKey =
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imp4cmxianRra2xubnVsdHRjbmFzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjAwNzAxNjMsImV4cCI6MjAzNTY0NjE2M30.WT-zYMiRmzhQ962Z1_bvfgOnOgxo441eVqzvmpJ2zXg";
 const kNunitoSans10Grey =
     TextStyle(fontFamily: "NunitoSans", fontSize: 10, color: kGrey);
 const kNunitoSans12Grey =

@@ -56,7 +56,7 @@ class UserController extends GetxController {
           bytes,
           fileOptions: const FileOptions(upsert: true),
         );
-    //TODO: Handle Upload Profile pic Error
+
     final imageUrlResponse =
         _supabaseClient.storage.from('profile-pics').getPublicUrl(filePath);
 
